@@ -1,0 +1,91 @@
+title Symbols
+at 0,0
+wire right
+resistor right label "resistor" above
+wire right
+at 6,0
+wire right
+capacitor right label "capacitor" above
+wire right
+at 12,0
+wire right
+inductor right label "inductor" above
+wire right
+at 18,0
+wire right
+diode right label "diode" above
+wire right
+at 0,3
+wire right
+led right label "led" above
+wire right
+at 6,3
+wire right
+zener right label "zener" above
+wire right
+at 12,3
+wire right
+schottky right label "schottky" above
+wire right
+at 18,3
+wire right
+battery right label "battery" above
+wire right
+at 0,6
+wire right
+dc right label "dc" above
+wire right
+at 6,6
+wire right
+ac right label "ac" above
+wire right
+at 12,6
+wire right
+isource right label "isource" above
+wire right
+at 18,6
+wire right
+switch right label "switch" above
+wire right
+at 0,9
+wire right
+fuse right label "fuse" above
+wire right
+at 6,9
+wire right
+lamp right label "lamp" above
+wire right
+at 12,9
+wire right
+motor right label "motor" above
+wire right
+at 18,9
+wire right
+speaker right label "speaker" above
+wire right
+at 0,12
+wire right
+npn right label "npn" above
+wire right
+at 6,12
+wire right
+pnp right label "pnp" above
+wire right
+at 12,12
+wire right
+opamp right label "opamp" above
+wire right
+at 18,12
+wire right
+terminal right label "terminal"
+at 0,15
+wire right
+ground right label "ground"
+at 6,15
+wire right
+dot label "dot" above
+wire right
+at 12,15
+wire right
+box "box" right
+wire right
