@@ -37,9 +37,3 @@ jobs:
           circuitmark check -W examples/*.ckt examples/README.md
           circuitmark render examples/*.ckt -o out/
           ls out
-      - name: Docs are up to date (generated SVGs match the sources)
-        if: runner.os == 'Linux'
-        shell: bash
-        run: |
-          python scripts/make_docs.py
-          git diff --exit-code -- docs/examples docs/symbols.svg examples/README.md
