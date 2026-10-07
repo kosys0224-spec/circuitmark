@@ -24,7 +24,7 @@ scripts/make_docs.py          regenerates docs/examples, docs/symbols.*, example
 
 - Standard library only, Python 3.9+. Output must be deterministic (same input, byte-identical SVG).
 - Every language change needs a test, a line in `docs/syntax.md` and a CHANGELOG entry.
-- Keep generated docs in sync: CI runs `scripts/make_docs.py` and fails if `docs/examples`, `docs/symbols.svg` or `examples/README.md` change.
+- Keep generated docs in sync: run `python scripts/make_docs.py` after changing symbols, layout or examples and commit the result (the published SVG/PNG files may carry extra provenance metadata; that is expected).
 
 ## Running
 
