@@ -1,0 +1,8 @@
+title LED with a current-limiting resistor
+BT1: battery "9 V" up
+wire up
+SW1: switch right
+R1: resistor 470 right
+D1: led down label "red"
+wire down
+wire to BT1.neg

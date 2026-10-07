@@ -1,0 +1,12 @@
+title RC low-pass filter
+V1: ac "5 V" up
+wire up
+Vin: terminal left
+R1: resistor 10k right
+node out
+C1: capacitor 100n down
+wire down
+wire to V1.neg
+at out
+wire right
+Vout: terminal right

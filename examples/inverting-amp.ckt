@@ -1,0 +1,18 @@
+title Inverting amplifier, gain = -Rf/Rin
+Vin: terminal left
+Rin: resistor 10k right
+node inm
+wire right
+# an op-amp starts at in-; in+ is one unit below, the output is at the far end
+U1: opamp right
+wire right
+Vout: terminal right
+# feedback from the output back to the inverting input
+at U1.out
+wire up 3
+Rf: resistor 100k left
+wire to inm
+# non-inverting input to ground
+at U1.in+
+wire down
+GND1: ground down

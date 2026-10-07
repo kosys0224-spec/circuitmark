@@ -1,0 +1,13 @@
+title Motor with fuse, switch and flyback diode
+V1: dc "12 V" up
+wire up
+F1: fuse 2A right
+S1: switch right
+node top
+wire right 2
+M1: motor down
+wire down
+wire to V1.neg
+at top
+D1: diode down flip label "flyback"
+wire down

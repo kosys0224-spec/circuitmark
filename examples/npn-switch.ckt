@@ -1,0 +1,18 @@
+title NPN low-side switch driving an LED
+# supply rail
+VCC: terminal up label "+9 V"
+wire down
+RL: resistor 470 down
+D1: led down label "red"
+wire down
+node c
+# the transistor is drawn upward: emitter at the start (bottom), collector at the end (top) = node c
+at 0,11
+Q1: npn up
+at Q1.e
+GND1: ground down
+# base drive from a logic pin on the left
+at Q1.base
+wire left
+RB: resistor 4k7 left
+IN: terminal left label "GPIO"

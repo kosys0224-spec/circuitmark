@@ -1,0 +1,13 @@
+title Voltage divider with load
+Vin: terminal left
+R1: resistor 10k right
+node mid
+R2: resistor 10k down
+GND1: ground down
+at mid
+wire right 2
+RL: resistor 100k down label "load"
+GND2: ground down
+at mid
+wire up
+Vout: terminal up
