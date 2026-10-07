@@ -1,0 +1,19 @@
+name: Symbol request
+description: A component kind that is missing
+labels: [symbol]
+body:
+  - type: input
+    id: kind
+    attributes:
+      label: Component (and the name/aliases you would type)
+    validations:
+      required: true
+  - type: textarea
+    id: pins
+    attributes:
+      label: Pins it needs (which one is the start, which is the end, extra pins) and a reference drawing or standard (IEC 60617 / ANSI)
+  - type: textarea
+    id: example
+    attributes:
+      label: A small circuit where you would use it
+      render: text
